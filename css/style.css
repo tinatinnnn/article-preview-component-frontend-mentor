@@ -1,0 +1,107 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color:#ECF2F8 ;
+    height: 100vh;
+    display: flex;
+    font-family: "Manrope", sans-serif;
+}
+.container{
+    width: 730px;
+    background-color:#ffff;
+    margin: auto;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+    border-radius: 10px;
+    display: flex;
+}
+.image{
+    width: 39%;
+    border-radius: 10px 0 0 10px;
+   
+}
+.infos{
+    padding: 32px 40px;
+}
+.description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color:#48556A ;
+}
+.about{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6E8098;
+    margin-top: 12px;
+}
+.bio{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.parent{
+    margin-left: 16px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6E8098;
+    letter-spacing: 0.12;
+}
+.date{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing:0.12px ;
+    font-weight: 100;
+    color:#9daec2;
+}
+.icon-box{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #ECF2F8;
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.icon{
+    margin: auto;
+}
+
+/*****responsive*******/
+@media only screen and (max-width: 600px) {
+   
+    .container{
+        width: 375px;
+        display: inline-block;
+    }
+    .image{
+        width: 100%;
+    }
+    .description{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.20px;
+        color:#48556A ;
+    }
+   
+  }
